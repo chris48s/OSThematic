@@ -10,9 +10,9 @@ Author: Christopher Shaw
 */
 
 
-"use strict";
-
 function OSThematic(map) {
+  "use strict";
+
   if (!(map instanceof OpenSpace.Map)) {
     //map must be an OpenSpace map
     throw "Map is not an instance of OpenSpace.Map";
@@ -30,6 +30,7 @@ function OSThematic(map) {
 }
 
 OSThematic.prototype = (function() {
+  "use strict";
 
   //private functions
 
@@ -70,7 +71,7 @@ OSThematic.prototype = (function() {
     var context = function(feature) {
       var value = {"VALUE" : undefined, "RANK" : undefined};
       for (var i=0; i<data.length; i++) {
-        if (data[i].ons_code === feature.attributes["CENSUS_CODE"]) {
+        if (data[i].ons_code === feature.attributes.CENSUS_CODE) {
           value = {"VALUE" : data[i].value, "RANK" : data[i].rank};
         }
       }
