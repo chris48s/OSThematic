@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "A front-end javascript library which helps you to create thematic maps using the Ordnance Survey OpenSpace API",
   "main": "os_thematic.js",
+  "scripts": {
+    "test": "node_modules/jshint/bin/jshint os_thematic.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/chris48s/OSThematic.git"
@@ -12,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/chris48s/OSThematic/issues"
   },
-  "homepage": "https://github.com/chris48s/OSThematic#readme"
+  "homepage": "https://github.com/chris48s/OSThematic#readme",
+  "devDependencies": {
+    "jshint": "^2.9.5"
+  }
 }
