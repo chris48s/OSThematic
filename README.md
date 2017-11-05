@@ -1,21 +1,19 @@
 OSThematic
 ==========
 
-What is it?
------------
-Thematic maps are an excellent way to visualise geographically coded data. This library aims to make it trivial for developers to create beautiful thematic maps using the Ordnance Survey OpenSpace API and continuous univariate data attached to ONS Geography codes.
+Thematic maps are an excellent way to visualise geographically coded data. This library makes it trivial to create beautiful thematic maps using the Ordnance Survey OpenSpace API and continuous univariate data attached to ONS Geography codes.
 
 Requirements
 ------------
 * An OS OpenSpace API Key - available from: http://www.ordnancesurvey.co.uk/business-and-government/products/os-openspace/api/
-* A web browser (some old version of Internet Explorer not supported due to use of indexOf - although this can be added using a shim)
+* A web browser (some old version of Internet Explorer not supported due to use of `indexOf` - although this can be added using a shim)
 
 Usage
 -----
 Pull in the OS OpenSpace API and OSThematic:
 
 ```html
-<script type="text/javascript" src="http://openspace.ordnancesurvey.co.uk/osmapapi/openspace.js?key=---YOUR-API-KEY-HERE---"></script>
+<script type="text/javascript" src="https://openspace.ordnancesurvey.co.uk/osmapapi/openspace.js?key=---YOUR-API-KEY-HERE---"></script>
 <script type="text/javascript" src="os_thematic.js"></script>
 ```
 
@@ -72,7 +70,7 @@ ost.setColours(["#CC99FF", "#9933FF", "#4C1A80"]);
 ost.setLayers(["EUR"]);
 ```
 
-(full list of available layers at http://www.ordnancesurvey.co.uk/business-and-government/help-and-support/web-services/administrative-boundaries.html )
+(full list of available layers at https://www.ordnancesurvey.co.uk/business-and-government/help-and-support/web-services/administrative-boundaries.html )
 
 and now lets visualise it:
 
@@ -85,4 +83,9 @@ OSThematic will display the data by banding it into quantiles for you based on t
 * If you supply 4 colours, you will get quartiles
 * If you supply 5 colours, you will get quintiles ..and so on.
 
-For more detailed usage, see examples directory.
+Examples
+-----
+
+* https://chris48s.github.io/OSThematic/example1.html
+* https://chris48s.github.io/OSThematic/example2.html
+* https://chris48s.github.io/OSThematic/example3.html
