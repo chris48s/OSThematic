@@ -55,7 +55,7 @@ ost.setData([
 ```
 (for more info on ONS geography coding, see:
 
-* http://www.ons.gov.uk/ons/guide-method/geography/index.html
+* https://www.ons.gov.uk/methodology/geography
 * http://en.wikipedia.org/wiki/ONS_coding_system )
 
 ..an array of colours to use:
