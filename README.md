@@ -1,15 +1,14 @@
-OSThematic
-==========
+# OSThematic
 
 Thematic maps are an excellent way to visualise geographically coded data. This library makes it trivial to create beautiful thematic maps using the Ordnance Survey OpenSpace API and continuous univariate data attached to ONS Geography codes.
 
-Requirements
-------------
+## Requirements
+
 * An OS OpenSpace API Key - available from: http://www.ordnancesurvey.co.uk/business-and-government/products/os-openspace/api/
 * A web browser (some old version of Internet Explorer not supported due to use of `indexOf` - although this can be added using a shim)
 
-Usage
------
+## Usage
+
 Pull in the OS OpenSpace API and OSThematic:
 
 ```html
@@ -83,8 +82,7 @@ OSThematic will display the data by banding it into quantiles for you based on t
 * If you supply 4 colours, you will get quartiles
 * If you supply 5 colours, you will get quintiles ..and so on.
 
-Examples
------
+## Examples
 
 * https://chris48s.github.io/OSThematic/example1.html
 * https://chris48s.github.io/OSThematic/example2.html
