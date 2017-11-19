@@ -7,6 +7,10 @@ Thematic maps are an excellent way to visualise geographically coded data. This 
 * An OS OpenSpace API Key - available from: http://www.ordnancesurvey.co.uk/business-and-government/products/os-openspace/api/
 * A web browser (some old version of Internet Explorer not supported due to use of `indexOf` - although this can be added using a shim)
 
+## Installation
+
+`npm install osthematic`
+
 ## Usage
 
 Pull in the OS OpenSpace API and OSThematic:
