@@ -1,6 +1,6 @@
 {
   "name": "osthematic",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A front-end javascript library which helps you to create thematic maps using the Ordnance Survey OpenSpace API",
   "main": "os_thematic.js",
   "scripts": {

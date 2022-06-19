@@ -1,5 +1,11 @@
 # OSThematic
 
+## ⚠️ Deprecated
+
+This package is now deprecated and archived because the OS Openspace API [has been withdrawn](https://www.ordnancesurvey.co.uk/business-government/products/openspace).
+
+---
+
 Thematic maps are an excellent way to visualise geographically coded data. This library makes it trivial to create beautiful thematic maps using the Ordnance Survey OpenSpace API and continuous univariate data attached to ONS Geography codes.
 
 ## Requirements
